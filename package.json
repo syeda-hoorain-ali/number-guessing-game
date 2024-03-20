@@ -1,0 +1,40 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "A simple game where you to guess the number",
+  "homepage": "https://github.com/syeda-hoorain-ali/number-guessing-game/blob/main/readme.md",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "nodejs",
+    "game",
+    "number-guessing-game-with-javaescript",
+    "number-guessing-game-with-typescript",
+    "number-guessing",
+    "fun",
+    "games"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syeda-hoorain-ali/number-guessing-game.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hoorain",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.16",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.29"
+  }
+}
