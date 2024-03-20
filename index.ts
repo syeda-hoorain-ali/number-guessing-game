@@ -17,7 +17,7 @@ async function welcome() {
 
     rainbowTitle.stop();
     console.log(`
-    ${chalk.bgCyanBright.whiteBright.bold('HOW TO PLAY')}
+    ${chalk.bgCyanBright.blackBright.bold('HOW TO PLAY')}
     Try to guess the mystery number between 1 and 10
     Be careful, you only have 3 lives! 💖💖💖`);
 }
@@ -68,6 +68,8 @@ const playGame = async () => {
         if (lives == 0) {
             // If no lives remaining, end the game
             await messageHandler("Uh-oh! You've run out of lives. Better luck next time!\n", false);
+            console.log(`The number was ${number}`);
+            
             process.exit(1);
         }
         // If lives remaining, continue the game

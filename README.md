@@ -7,7 +7,7 @@ This guess the number game is a short TypeScript/Node.js project that allows the
 ## Play the game
 
 ```
-npx number-guessing-game
+npx ha-number-guessing-game
 ```
 
 ## Packages Used
